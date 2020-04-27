@@ -1,0 +1,45 @@
+* {
+  font-family: 'Baloo Paaji 2', sans-serif;
+}
+nav {
+  background-color: rgb(25, 105, 105, .8);
+}
+
+footer.page-footer {
+  background-color: rgb(25, 105, 105, .6);
+}
+
+body {
+  padding: 50px;
+  font: 14px 'Baloo Paaji 2', sans-serif;
+  background: url(https://i.imgur.com/BVhCmHO.jpg) no-repeat;  
+}
+
+a {
+  color: rgb(50, 205, 255);
+}
+
+li {
+  padding-right: 75px;
+}
+
+.brand-logo {
+  margin-left: 15px;
+}
+
+.btn {
+  background-color: #64b5f6;
+}
+
+.card .card-content .card-title {
+  margin-bottom: 10px;
+}
+
+#search-row form {
+  padding-top: 20px;
+}
+
+.student-name {
+  position: relative;
+  top: -5px;
+}

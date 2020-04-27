@@ -1,0 +1,81 @@
+<%- include('../partials/header') %>
+
+  <div class="container">
+    <div id="search-row" class="row">
+      <h2 class="col s4 blue-grey-text text-darken-2">Asana Flows</h2>
+      <form action="/yogis" method="GET">
+        <div class="col s3 offset-s3">
+          <!-- search -->
+          <div class="input-field">
+            <input id="search" type="search" name="name" placeholder="search asana" value="<%= name %>" autocomplete="off">
+            <i class="material-icons">close</i>
+          </div>
+        </div>
+        <div class="col s2">
+          <p>
+            <label for="sort-level">
+              <input name="level" type="radio" id="sort-level" value="level" class="with-gap"
+                <%= sortKey === 'level' ? 'checked' : '' %> >
+              <span>Sort by Level</span>
+            </label>
+          </p>
+          <p>
+            <label for="sort-name">
+              <input name="sort" type="radio" id="sort-name" value="name" class="with-gap"
+                <%= sortKey === 'name' ? 'checked' : '' %> >
+              <span>Sort by Name</span>
+            </label>
+          </p>
+        </div>
+      </form>
+    </div>
+
+    <div class="row">
+      <div id="yogis" class="col s12">
+        <% yogis.forEach(function(yogi) { %>
+          <div class="card blue-grey">
+            <div class="card-content white-text">
+              <div>
+                <span class="card-title">
+                  <i class="small material-icons">perm_identity</i>
+                  <span class="yogi-name"><%= yogi.name %></span>
+                  <% if (yogi.cohort) { %><span class="badge white">SEI <%= yogi.cohort %></span><% } %>
+                </span>
+              </div>
+
+              <ul class="collection">
+                <% yogi.flows.forEach( (pose) => { %>
+                <li class="collection">
+                    <!-- Add delete form - don't forget to install method-override -->
+                    <span class="title"><%- pose.sequence %></span>
+                    <% if (yogi._id.equals(user && user._id)) { %>
+                      <form action="/flows/<%= pose._id %>?_method=DELETE" method="POST" class="secondary-content">
+                        <button type="submit" class="btn-tiny red-text">X</button>
+                      </form>
+                      <!-- Create a update button -->
+                      <a href="/asanas/<%= pose._id %>">
+                      <button type="submit" class="btn-tiny blue-text">Info</button>
+                      </a>
+                    <% } %>
+                </li> 
+                <% }) %>
+              </ul>
+
+              <% if (yogi._id.equals(user && user._id)) { %>
+                <div class="card-action">
+                  <form action="/flows" method="POST">
+                    <input type="text" name="text" class="white-text">
+                    <button type="submit" class="btn white-text"><i class="tiny material-icons">add</i>Asana</button>
+                  </form>
+                </div>
+              <% } %>
+
+            </div>
+          </div>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+
+
+<%- include('../partials/footer') %>

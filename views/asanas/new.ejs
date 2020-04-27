@@ -1,0 +1,19 @@
+<%- include('../partials/header') %>
+
+<form id="new-form" action="/asanas" method="POST">
+  <label>Asana Name:</label>
+  <input type="text" name="title">
+  <label>Release Year:</label>
+  <input type="text" name="releaseYear">
+  <label>Asana Type</label>
+  <select name="asanaType">
+    <option value="Standing">Standing</option>
+    <option value="Twisting">Twisting</option>
+    <option value="ForwardBend">Forward Bend</option>
+  </select>
+  <label>Upside Down:</label>
+  <input type="checkbox" name="upsideDown" checked>
+  <input type="submit" value="Add Asana">
+</form>
+
+<%- include('../partials/footer') %>

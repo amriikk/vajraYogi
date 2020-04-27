@@ -1,0 +1,70 @@
+/* Parallax Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ */
+ 
+ * {
+   font-family: 'Baloo Paaji 2', sans-serif;
+  }
+  
+  body {
+    padding: 50px;
+    font: 14px 'Baloo Paaji 2', sans-serif;
+    background: rgb(128, 229, 255);
+}
+div.container {
+  background: rgb(0, 102, 102);
+}
+
+nav ul a,
+nav .brand-logo {
+  color: rgb(0, 230, 230);
+  padding-right: 2em;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(175,175,175,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
