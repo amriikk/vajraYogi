@@ -1,4 +1,4 @@
-# :zap: Vajra Yogi 
+# :zap: Vajra Yogi :zap:
 
 ## John Trujillo
 ### SEI-DT-71
