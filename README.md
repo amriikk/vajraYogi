@@ -17,28 +17,28 @@
 
 [Link to Trello](https://trello.com/b/LvJlwRSP/sei-project-2 "Vajra Yoga Trello") :trollface:
 
-[Link to ERD](https://trello.com/b/LvJlwRSP/sei-project-2 "ERD") 
+[Link to ERD](https://trello.com/b/LvJlwRSP/sei-project-2 "ERD") :chart:
 
 
 ## Technology Utilized: 
 
-#### :small_blue_diamond: HTML5
+##### :small_blue_diamond: HTML5
 
-#### :small_blue_diamond: CSS
+##### :small_blue_diamond: CSS
 
-#### :small_blue_diamond: JavaScript
+##### :small_blue_diamond: JavaScript
 
-#### :small_blue_diamond: MongoDB
+##### :small_blue_diamond: MongoDB
 
-#### :small_blue_diamond: Passport
+##### :small_blue_diamond: Passport
 
-#### :small_blue_diamond: Materilize
+##### :small_blue_diamond: Materilize
 
-#### :small_blue_diamond: Mongoose
+##### :small_blue_diamond: Mongoose
 
-#### :small_blue_diamond: Heroku
+##### :small_blue_diamond: Heroku
 
-*Fonts brought to you by Google-Fonts ('Baloo Paaji 2')*
+###### *Fonts brought to you by Google-Fonts ('Baloo Paaji 2')*
 
 
 ## Pseudocode:
@@ -57,9 +57,9 @@
 
 ## IceBox Features:
 
-- [ ] Add a couple more pages
+- [ ] Add a couple more pages :bookmark_tabs:
 
-- [ ] Include animation in both partias
+- [ ] Include animation in both partials :sparkle:
 
 - [ ] Add sounds to submit buttons :sound:
 
