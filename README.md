@@ -6,11 +6,11 @@
 
 ## :zap: App Description:
 
-∅ Share favorite flows and asanas.
+:black_circle: Share favorite flows and asanas.
 
-∅ Favorite some of your favorite asanas(poses) to a personal list. 
+:red_circle: Favorite some of your favorite asanas(poses) to a personal list. 
 
-∅ Join a Yoga Community that welcome all experience levels! :cyclone:
+:large_blue_circle: Join a Yoga Community that welcome all experience levels! :cyclone:
 
 
 ## Getting Started:
