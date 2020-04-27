@@ -3,43 +3,43 @@
 ## John Trujillo
 ### SEI-DT-71
 
-![GamePlay Screenshot 1](https://#/)
-![GamePlay Screenshot 2](https://#/)
 
 ## App Description:
-This browser game is an adaptation of BattleShips. :ship:
 
-∅ Share favorite flows and asanas in a easy to use app
+∅ Share favorite flows and asanas.
 
-∅ Favorite some of your favorite asanas(poses) to a personal list
+∅ Favorite some of your favorite asanas(poses) to a personal list. 
 
-∅ Join the Community
+∅ Join a Yoga Community that welcome all experience levels!
 
-
-## Technology Utilized: 
-
-:small_blue_diamond: HTML5
-
-:small_blue_diamond: CSS
-
-:small_blue_diamond: JavaScript
-
-:small_blue_diamond: MongoDB
-
-:small_blue_diamond: Passport
-
-:small_blue_diamond: Materilize
-
-:small_blue_diamond: Mongoose
-
-:small_blue_diamond: Heroku
-
-*Fonts brought to you by Google-Fonts ('Baloo Paaji 2')*
 
 ## Getting Started:
 
 [Link to Trello](https://trello.com/b/LvJlwRSP/sei-project-2 "Vajra Yoga Trello") :trollface:
+
 [Link to ERD](https://trello.com/b/LvJlwRSP/sei-project-2 "ERD") 
+
+
+## Technology Utilized: 
+
+#### :small_blue_diamond: HTML5
+
+#### :small_blue_diamond: CSS
+
+#### :small_blue_diamond: JavaScript
+
+#### :small_blue_diamond: MongoDB
+
+#### :small_blue_diamond: Passport
+
+#### :small_blue_diamond: Materilize
+
+#### :small_blue_diamond: Mongoose
+
+#### :small_blue_diamond: Heroku
+
+*Fonts brought to you by Google-Fonts ('Baloo Paaji 2')*
+
 
 ## Pseudocode:
 
@@ -58,6 +58,8 @@ This browser game is an adaptation of BattleShips. :ship:
 ## IceBox Features:
 
 - [ ] Add a couple more pages
+
+- [ ] Include animation in both partias
 
 - [ ] Add sounds to submit buttons :sound:
 
