@@ -4,11 +4,11 @@
 ### SEI-DT-71
 
 
-## :zap: App Description:
+## :zap: App Description: :zap:
 
-:black_circle: Share favorite flows and asanas.
+:black_circle: Share favorite flows and asanas. :clipboard:
 
-:red_circle: Favorite some of your favorite asanas(poses) to a personal list. 
+:red_circle: Favorite some of your favorite asanas(poses) to a personal list. :pushpin:
 
 :large_blue_circle: Join a Yoga Community that welcome all experience levels! :cyclone:
 
