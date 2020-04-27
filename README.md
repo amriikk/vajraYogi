@@ -1,16 +1,16 @@
-# Vajra Yoga
+# :zap: Vajra Yogi 
 
 ## John Trujillo
 ### SEI-DT-71
 
 
-## App Description:
+## :zap: App Description:
 
 ∅ Share favorite flows and asanas.
 
 ∅ Favorite some of your favorite asanas(poses) to a personal list. 
 
-∅ Join a Yoga Community that welcome all experience levels!
+∅ Join a Yoga Community that welcome all experience levels! :cyclone:
 
 
 ## Getting Started:
