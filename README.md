@@ -3,11 +3,11 @@
 ## John Trujillo
 ### SEI-DT-71
 
-![GamePlay Screenshot 1](https://#/)
-![GamePlay Screenshot 2](https://#/)
+![App Screenshot 1](https://#/)
+![App Screenshot 2](https://#/)
 
 ## App Description:
-This browser game is an adaptation of BattleShips. :ship:
+Easy to use web app allows yogis to log into using their Gmail account to post or favorite their favorite asanas among a collection on the page. 
 
 ∅ Share favorite flows and asanas in a easy to use app
 
