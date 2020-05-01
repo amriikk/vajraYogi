@@ -1,4 +1,4 @@
-# Vajra Yoga
+# :zap: Vajra Yogi :zap:
 
 ## John Trujillo
 ### SEI-DT-71
@@ -9,37 +9,40 @@
 ## App Description:
 Easy to use web app allows yogis to log into using their Gmail account to post or favorite their favorite asanas among a collection on the page. 
 
-∅ Share favorite flows and asanas in a easy to use app
+:black_circle: Share favorite flows and asanas. :clipboard:
 
-∅ Favorite some of your favorite asanas(poses) to a personal list
+:red_circle: Favorite some of your favorite asanas(poses) to a personal list. :pushpin:
 
-∅ Join the Community
+:large_blue_circle: Join a Yoga Community that welcome all experience levels! :cyclone:
 
-
-## Technology Utilized: 
-
-:small_blue_diamond: HTML5
-
-:small_blue_diamond: CSS
-
-:small_blue_diamond: JavaScript
-
-:small_blue_diamond: MongoDB
-
-:small_blue_diamond: Passport
-
-:small_blue_diamond: Materilize
-
-:small_blue_diamond: Mongoose
-
-:small_blue_diamond: Heroku
-
-*Fonts brought to you by Google-Fonts ('Baloo Paaji 2')*
 
 ## Getting Started:
 
 [Link to Trello](https://trello.com/b/LvJlwRSP/sei-project-2 "Vajra Yoga Trello") :trollface:
-[Link to ERD](https://trello.com/b/LvJlwRSP/sei-project-2 "ERD") 
+
+[Link to ERD](https://trello.com/b/LvJlwRSP/sei-project-2 "ERD") :chart:
+
+
+## Technology Utilized: 
+
+##### :small_blue_diamond: HTML5
+
+##### :small_blue_diamond: CSS
+
+##### :small_blue_diamond: JavaScript
+
+##### :small_blue_diamond: MongoDB
+
+##### :small_blue_diamond: Passport
+
+##### :small_blue_diamond: Materilize
+
+##### :small_blue_diamond: Mongoose
+
+##### :small_blue_diamond: Heroku
+
+###### *Fonts brought to you by Google-Fonts ('Baloo Paaji 2')*
+
 
 ## Pseudocode:
 
@@ -57,7 +60,9 @@ Easy to use web app allows yogis to log into using their Gmail account to post o
 
 ## IceBox Features:
 
-- [ ] Add a couple more pages
+- [ ] Add a couple more pages :bookmark_tabs:
+
+- [ ] Include animation in both partials :sparkle:
 
 - [ ] Add sounds to submit buttons :sound:
 
