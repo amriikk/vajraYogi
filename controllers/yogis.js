@@ -14,6 +14,10 @@ function index(req, res, next) {
   Yogi.
   findOne({_id: req.user.id}).then( (yogi) => {
     console.log(yogi);
+    res.render('yogis/profile', {
+            yogi: yogi,
+            
+          })
   })
 
 
